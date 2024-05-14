@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleCast",
+    name: "GoogleCastSender",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "GoogleCast", 
-            targets: ["GoogleCast"])
+            name: "GoogleCastSender", 
+            targets: ["GoogleCastSender"])
     ],
     targets: [
         .binaryTarget(
-            name: "GoogleCast", 
+            name: "GoogleCastSender", 
             path: "GoogleCast.xcframework")
     ])
